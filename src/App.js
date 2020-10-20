@@ -131,9 +131,15 @@ class App extends Component {
 
   render() {
     return (
+      <div>
+      <div>
+        <h2 className="title">AY YO DO NOT RUN INTO YOURSELF</h2>
+      </div>
       <div className="game-area">
         <Snake snakeDots={this.state.snakeDots}/>
         <Food dot={this.state.food}/>
+      </div>
+      
       </div>
     );
   }
